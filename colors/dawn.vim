@@ -1,6 +1,8 @@
 " Vim color file
-" Maintainer: Ajit J. Thakkar (ajit AT unb DOT ca)
-" Last Change:	2003 Feb. 23
+" Maintainer:	Ajit J. Thakkar (ajit AT unb DOT ca)
+" Last Change:	2003 Mar. 10
+" Version:	1.1
+" URL:		http://www.unb.ca/chem/ajit/vim.htm
 
 " This GUI-only color scheme has a light grey background, and is a softer
 " variant of the default and morning color schemes.
@@ -16,7 +18,7 @@ let colors_name = "dawn"
 hi Normal	guifg=Black guibg=grey90
 
 " Groups used in the 'highlight' and 'guicursor' options default value.
-hi ErrorMsg	guifg=White guibg=HotPink
+hi ErrorMsg	gui=NONE guifg=Red guibg=Linen
 hi IncSearch	gui=NONE guifg=fg guibg=LightGreen
 hi ModeMsg	gui=bold guifg=fg guibg=bg
 hi StatusLine	gui=NONE guifg=DarkBlue guibg=grey70
@@ -40,17 +42,17 @@ hi WildMenu	guifg=fg guibg=PeachPuff
 hi Folded	guifg=DarkBlue guibg=LightGrey
 hi FoldColumn	guifg=DarkBlue guibg=Grey
 hi DiffAdd	gui=bold guifg=Blue guibg=LightCyan
-hi DiffChange	gui=bold guifg=fg guibg=MistyRose1
+hi DiffChange	gui=bold guifg=fg guibg=MistyRose2
 hi DiffDelete	gui=NONE guifg=LightBlue guibg=LightCyan
 
 " Colors for syntax highlighting
 hi Constant	gui=NONE guifg=SteelBlue guibg=bg
-hi String	gui=NONE guifg=Maroon guibg=bg
+hi String	gui=NONE guifg=Magenta3 guibg=bg
 hi Special	gui=bold guifg=DarkSlateBlue guibg=bg
 hi Statement	gui=NONE guifg=Brown guibg=bg
 hi Ignore	gui=NONE guifg=bg guibg=bg
-hi ToDo		gui=NONE guifg=Blue guibg=LightYellow
-hi Error	gui=NONE guifg=White guibg=HotPink
+hi ToDo		gui=NONE guifg=DeepPink1 guibg=bg
+hi Error	gui=NONE guifg=Red guibg=Linen
 hi Comment	gui=NONE guifg=RoyalBlue guibg=NONE
 hi Identifier	gui=NONE guifg=DarkCyan guibg=NONE
 hi PreProc	gui=NONE guifg=Purple guibg=NONE
